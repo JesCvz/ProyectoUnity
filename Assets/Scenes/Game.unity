@@ -125,6 +125,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6410014474741260576, guid: 7a1fccd09f2eb9e49b05bc5419472c6c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fa6bb5ec7280ec4592247098e73c368, type: 2}
     - target: {fileID: 6410014474741260578, guid: 7a1fccd09f2eb9e49b05bc5419472c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -198,7 +203,12 @@ PrefabInstance:
     - target: {fileID: 6410014474741260590, guid: 7a1fccd09f2eb9e49b05bc5419472c6c,
         type: 3}
       propertyPath: m_Name
-      value: Launchpad (1)
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410014474741260590, guid: 7a1fccd09f2eb9e49b05bc5419472c6c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Fuel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1fccd09f2eb9e49b05bc5419472c6c, type: 3}
@@ -269,6 +279,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ROCKETSHIP
       objectReference: {fileID: 0}
+    - target: {fileID: 6939574691591944345, guid: 871a667f483da1b4993de90c1f158920,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 871a667f483da1b4993de90c1f158920, type: 3}
 --- !u!1001 &1951873935
@@ -278,6 +293,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6410014474741260576, guid: 7a1fccd09f2eb9e49b05bc5419472c6c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fa6bb5ec7280ec4592247098e73c368, type: 2}
     - target: {fileID: 6410014474741260578, guid: 7a1fccd09f2eb9e49b05bc5419472c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -351,7 +371,12 @@ PrefabInstance:
     - target: {fileID: 6410014474741260590, guid: 7a1fccd09f2eb9e49b05bc5419472c6c,
         type: 3}
       propertyPath: m_Name
-      value: Launchpad (2)
+      value: Obstacle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410014474741260590, guid: 7a1fccd09f2eb9e49b05bc5419472c6c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1fccd09f2eb9e49b05bc5419472c6c, type: 3}
